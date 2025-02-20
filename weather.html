@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <header>
+        <h1>Weather Today</h1>
+        <input type="text" id="location-input" placeholder="Enter city name" />
+        <button id="get-weather">Get Weather</button>
+    </header>
+    <br>
+
+    <div class="card-containers">
+        <!-- Card 1 -->
+        <div class="cards">
+            <u><h2 id="location">Location</h2></u>
+            <b><p id="temperature">Temperature</p></b>
+            <p id="feels_like">Feels Like</p>
+            <p id="wind_speed">Wind Speed</p>
+            <p id="description">Description</p>
+        </div>
+        </div>
+
+    <div class="card-container">
+        <!-- Card 1 -->
+        <div class="card">
+          <img src="sunrise.jpg" alt="Image 1">
+          <h3>Sunrise</h3>
+          <p id="sunrise">Sunrise</p>
+        </div>
+    
+        <!-- Card 2 -->
+        <div class="card">
+          <img src="sunset.jpg" alt="Image 2">
+          <h3>Sunset</h3>
+          <p id="sunset">Sunset</p>
+        </div>
+      </div>
+
+    <footer>
+        <p>&copy; 2025 Weather App. All rights reserved.</p>
+    </footer>
+
+    <script src="weather.js"></script>
+</body>
+</html>

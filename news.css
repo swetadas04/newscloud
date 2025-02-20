@@ -1,0 +1,119 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #191c29;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #00796b;
+    position: relative;
+    width: 100%;            /* Ensure header covers the entire width of the screen */
+    box-sizing: border-box; /* Ensures padding doesn't affect the total width */
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #00796b;
+    color: #000000;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td {
+    padding: 10px;
+}
+
+th, td {
+    text-align: left;
+}
+
+th {
+    background-color: #000000;
+}
+
+.news-image {
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+.select-container {
+    margin-top: 10px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+h2, p {
+    color: #ffffff;
+}
+
+a {
+    color: #a09f9f;
+}
+
+.date-style {
+    color: #939090;
+}
+
+.ft {
+    color: #000000;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    .news-image {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    .select-container {
+        margin-top: 10px;
+    }
+}
